@@ -7,7 +7,7 @@ class Anagram
   end 
   
   def match(word)
-    @word.select do |anagram| 
+    word.detect do |anagram| 
       anagram == anagram
     end 
   end 
